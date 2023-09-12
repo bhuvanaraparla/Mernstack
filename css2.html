@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS2</title>
+    <style>nav{
+        width: 90%;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(228, 180, 117);
+    
+    }  
+    nav:hover{
+        background-color: rgb(241, 241, 34);
+        border-radius: 10px;
+    }
+        li{
+        padding: 10px 10px;
+        border-radius: 15px 10px 15px 10px;
+        background-color: aqua;
+    }
+    li:hover{
+        background-color: rgb(240, 184, 87);
+    }
+    .horizontal{
+        justify-content:space-between;
+        padding: 15px 40px 15px 25px;
+        margin-top: 20px;
+        border: 1px solid black;
+        
+    }
+    .vertical {
+        padding: 15px 25px;
+        border: 1px solid black;
+    }
+    .list1 li{
+        display: inline;}
+    
+    .list2 li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    </style>
+    
+</head>
+<body>
+    <h2>Vertical Navigationbar</h2>
+    <nav class="vertical">
+    <ul class="list1"><li>Home</li>
+       <li>Java</li>
+       <li>CSS</li>
+       <li>HTML</li>
+       <li>Bootstrap</li>
+       <li>Javascript</li>
+    </ul></nav>
+<div>
+    <h2>Horizotal Navigationbar</h2>
+    <nav class="horizontal">
+        <ul class="list2"><li>Home</li>
+            <li>Java</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Bootstrap</li>
+            <li>Javascript</li>
+            <li>Python</li></ul>
+    </nav>
+</div>
+
+</body>
+</html>

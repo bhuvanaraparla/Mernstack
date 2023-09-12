@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS7</title>
+<style>
+    body{
+    background-color: rgb(189, 4, 81);
+    color: white;
+}
+.formbox{
+    margin-top: 20px;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+    background-color: rgb(145, 6, 64);
+}
+.formbox table{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10% ;
+}
+.formbox th{
+    font-size: larger;
+    margin-left: 20%;
+    margin-right:10%;
+    margin-top:10px;
+}
+.formbox input{
+    font-size: x-large;
+    margin-top: 10px;
+}
+.formbox td{
+    font-size: larger;
+    text-align: left;
+}
+.formbox textarea{
+    font-size: x-large;
+    margin-top: 10px;
+}
+.formbox button{
+    font-size: large;
+    width:68%;
+    background-color: aquamarine;
+    height: 40px;
+    border-radius: 15px 10px;
+}
+input[type=radio]{
+            height: 20px;
+            width: 20px;
+        }
+</style>
+</head>
+<body>
+    <div class="formbox">
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td><input type="text" placeholder="your name" size="57"></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="email" placeholder="your email" size="57"></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type="password" size="57"></td>
+            </tr>
+            <tr>
+                <th>Phone Number:</th>
+                <td><input type="text" placeholder="your contact" size="57"></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>Male:<input type="radio" name="gender">Female: <input type="radio" name="gender"></td>
+            </tr>
+            <tr>
+                <th>Language:</th>
+                <td><select style="font-size: large;">
+                <option selected>Select Language</option>
+                <option>English</option>
+                <option>Telugu</option>
+                <option>Tamil</option>
+                <option>Hindi</option>
+                <option>Malayalam</option>
+                <option>Kannada</option>
+                <option>Marathi</option>
+                <option>Bhojpuri</option>
+                <option>Gujarati</option>
+                <option>Odisa</option>
+                <option>Chinese</option>
+                <option>U.K English</option>
+                <option>Urdu</option>
+                <option>Japanese</option>
+                <option>French</option>
+                <option>Spanish</option>
+            </select></td>
+            </tr>
+            <tr>
+                <th>Zip Code:</th>
+                <td><input type="text" size="57"></td>
+            </tr>
+            <tr>
+                <th>About:</th>
+                <td><textarea cols="60" rows="5" placeholder="write about yourself....."></textarea></td>
+            </tr>
+            <tr><th colspan="2"><button>Register</button></th></tr>
+        </table>
+    </div>
+</body>
+</html>

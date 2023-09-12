@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS6</title>
+    <style>
+        input[type=checkbox]{
+            height: 20px;
+            width: 20px;
+            margin: 1% 0% 1% 15%;
+        }
+        
+        img{
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+}
+body{
+    background-color: antiquewhite;
+}
+label{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1% 15%;
+}
+.formbox{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    background-color: white;
+}
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1% 15%;
+    font-size: 30px;
+}
+button{
+    background-color: rgb(252, 51, 121);
+    width:980px;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 15px;
+    margin: 1% 15%;
+}
+.cancel button{
+    background-color: rgb(134, 245, 106);
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+}
+    </style>
+</head>
+<body>
+    <img src="user.jpg" alt="user_profile">
+    <div class="formbox">
+        <form>
+            <label for="username">Username</label> <br>
+            <input type="text" name="username" placeholder="Enter Username" size="62"> <br>
+            <label for="password">Password</label> <br>
+            <input type="text" name="password" placeholder="Enter Password" size="62"> 
+            <button onclick="alert('Logging into portal')">Login</button><br>
+            <input type="checkbox" name="remember" class="checkbox">
+            <label for="remember" style="margin-left: 0%;">Remember Me</label>
+        </form>
+    </div>
+    <div class="cancel">
+        <button onclick="alert('You want to close it?')">Cancel</button>
+        <h3 style="text-align: right;">Forgot <a href="css1.html">password?</a></h3>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        table,th,td{
+            background-color: white;
+            margin: auto;
+            margin-top: 20px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 80%;
+            table-layout: fixed;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        button{
+            font-size: larger;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 20px;
+            margin-left: 48%;
+            margin-right: 40%;
+        }
+        input{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+        }
+        input[type="text"]{
+            width: 100%;
+        }
+        input[type="password"]{
+            width: 100%;
+        }
+        input[type="email"]{
+            width: 100%;
+        }
+        textarea{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+        }
+        tr{
+            font-size: larger;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: azure;">
+    <form>
+        <table>
+            <tr><th>First Name:</th>
+            <td><input type="text"></td></tr>
+            <tr><th>Last Name:</th>
+            <td><input type="text"></td></tr>
+            <tr><th>Email:</th>
+            <td><input type="email"></td></tr>            
+            <tr><th>Password:</th>
+            <td><input type="password"></td></tr>
+            <tr><th>Re-enter Password:</th>
+            <td><input type="password"></td></tr>
+            <tr><th rowspan="2">Gender:</th>
+            <td><input type="radio" size="57" name="gender">Male</td></tr>
+            <tr>
+            <td><input type="radio" size="57" name="gender">Female</td></tr>
+            <tr><th>Age:</th>
+            <td><input type="text"></td></tr>
+            <tr><th>Phone Number</th>
+            <td><input type="text"></td></tr>
+            <tr><th>Address:</th>
+            <td><textarea cols="57" rows="10"></textarea></td></tr>
+            <tr><th>State:</th>
+            <td><input type="text"></td></tr>
+            <tr><th>Country:</th>
+            <td><select style="font-size: large;">
+                <option >Afghanistan</option>
+                <option>Albania</option>
+                <option>Algeria</option>
+                <option>Antartica</option>
+                <option>Argentina</option>
+                <option>Australia</option>
+                <option>Austria</option>
+                <option>Belgium</option>
+                <option>Brazil</option>
+                <option>Canada</option>
+                <option>Congo</option>
+                <option>Egypt</option>
+                <option>France</option>
+                <option selected>India</option>
+                <option>Ukraine</option>
+                <option>United States</option>
+                </select></td></tr>
+                <tr><th>Languages Known:</th>
+                <td><input type="checkbox" id="language">English<input type="checkbox" id="language">Kannada<input type="checkbox" id="language">Hindi <input type="checkbox" id="language">Telugu</td></tr>
+                <tr><td colspan="2"><input type="checkbox" id="declare">Hereby I declare all the given details are true</td></tr>
+                <tr style="text-align: right;"><td colspan="2">Log into <a href="https://codemithra.com/"> Ethnus </a>website</td></tr>
+        </table>
+    </form>
+    <button onclick="alert('Data saved and registered Successfully')">Register</button>
+
+</body>
+</html>

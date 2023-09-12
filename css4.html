@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS4</title>
+    <style>
+        li{
+    width: 100px;
+    height: 50px;
+    margin: 20px 20px 20px 0px ;
+    border-radius: 15px;
+}
+.red li{
+    background-color: red;
+}
+.red li:hover{
+        background-color: rgb(183, 212, 18);
+        border-radius: 0px;
+}
+.green li{
+    background-color: green;
+}
+.green li:hover{
+    background-color: rgb(179, 44, 44);
+    border-radius: 0px;
+}
+.yellow li{
+    background-color: yellow;
+}
+.yellow li:hover{
+    background-color: rgb(13, 193, 133);
+    border-radius: 0px;
+}
+.blue li{
+    background-color: blue;
+}
+.blue li:hover{
+    background-color: rgb(238, 192, 136);
+    border-radius: 0px;
+}
+.violet li{
+    background-color: violet;
+}
+.violet li:hover{
+    background-color: rgb(235, 23, 143);
+    border-radius: 0px;
+
+}
+nav{
+    display: flex;
+}
+.content{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 20px 0px 40px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+       <div>
+        <ul style="list-style-type: none;">
+            <div class="green">
+                <li></li>
+            </div>
+            <div class="red">
+                <li></li>
+            </div>
+            <div class="violet">
+                <li></li>
+            </div>
+            <div class="blue">
+                <li></li>
+            </div>
+            <div class="yellow">
+                <li></li>
+            </div>
+        </ul>
+       </div>
+        <div class="content">
+            <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+    </nav>
+</body>
+</html>
